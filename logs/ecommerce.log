@@ -1,0 +1,17 @@
+2023-08-19 14:59:04,316 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on MacBook-Pro-alkhas-b-Riham.local with PID 59124 (/Users/Work/Desktop/udacity/nd035-c4-Security-and-DevOps/starter_code/target/classes started by Work in /Users/Work/Desktop/udacity/nd035-c4-Security-and-DevOps)
+2023-08-19 14:59:04,328 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-08-19 14:59:04,329 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2023-08-19 14:59:08,628 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2023-08-19 14:59:09,998 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 6.176 seconds (JVM running for 13.017)
+2023-08-19 14:59:10,001 INFO c.e.d.SareetaApplication [main] Ecommerce Application Started
+2023-08-19 14:59:33,084 INFO c.e.d.c.UserController [http-nio-8080-exec-1] a new cart created for the user: 1
+2023-08-19 14:59:33,085 ERROR c.e.d.c.UserController [http-nio-8080-exec-1] Error - Either length is less than 7 or pass and conf pass do not match. Unable to create: reh
+2023-08-19 15:00:58,725 INFO c.e.d.c.UserController [http-nio-8080-exec-4] a new cart created for the user: 2
+2023-08-19 15:00:58,824 INFO c.e.d.c.UserController [http-nio-8080-exec-4] a new user created: reh
+2023-08-19 15:03:08,998 INFO c.e.d.c.CartController [http-nio-8080-exec-8] user found: reh
+2023-08-19 15:03:09,027 INFO c.e.d.c.CartController [http-nio-8080-exec-8] item found: 1
+2023-08-19 15:03:09,139 INFO c.e.d.c.CartController [http-nio-8080-exec-8] item 1 added to the cart: 2
+2023-08-19 15:03:44,477 INFO c.e.d.c.OrderController [http-nio-8080-exec-9] user found: reh
+2023-08-19 15:03:44,521 INFO c.e.d.c.OrderController [http-nio-8080-exec-9] order created: 1
+2023-08-19 15:04:10,988 INFO c.e.d.c.OrderController [http-nio-8080-exec-10] user found: reham
+2023-08-19 15:04:10,989 ERROR c.e.d.c.OrderController [http-nio-8080-exec-10] user not found: reham
